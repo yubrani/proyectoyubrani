@@ -1,0 +1,48 @@
+// HEADER
+//--------------------------------------
+
+
+header {
+    width: $full;
+    background-color: $color-gris;
+    display: flex;
+    justify-content: center;
+    height: 127px;
+
+    div {
+        width: $full;
+        max-width: $max;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        height: inherit;
+        justify-content: center;
+        justify-items: center;
+        gap: 20px;
+        
+    } .menu-menu-primario-container {
+        
+        }
+    
+      .menu {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        
+        
+
+        a{
+            text-decoration: none;
+            color: black;
+            margin: 30px;
+            
+        }
+        
+       
+        
+    }
+    
+        }
+        
+    
