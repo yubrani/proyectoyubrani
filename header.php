@@ -8,7 +8,7 @@
     <meta name="viewport"
     content="Width=device-width, initial-scale=1.0">
     <title>VCL</title>
-    <?php wp_head() ?>
+    <?php wp_head(); ?>
 </head>
 <body>
     
@@ -22,3 +22,5 @@
             
         </div>
     </header>
+
+</body>
