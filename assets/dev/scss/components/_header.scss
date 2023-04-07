@@ -21,24 +21,44 @@ header {
         justify-items: center;
         gap: 20px;
         
-    } .menu-menu-primario-container {
+    } 
+    .boton {
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+    }
+    .boton:hover {
+        background-color: red;
+    }
+    
+    .menu-menu-primario-container {
         
-        }
+        
     
       .menu {
         display: flex;
         flex-direction: row;
         list-style: none;
         
-        
+        a:hover {
+            color: red;
+        }
 
         a{
             text-decoration: none;
             color: black;
             margin: 30px;
+            font-weight: bold;
+            font-size: larger;
             
         }
+       
+    
         
+       
        
         
     }
@@ -46,3 +66,4 @@ header {
         }
         
     
+    }

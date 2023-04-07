@@ -1,2 +1,26 @@
 // FOOTER
 //--------------------------------------
+.contenedor-footer-principal {
+    width: $full;
+
+    .contenedor-direccion   {
+
+                background-color: black;
+                color: white;
+                padding: 35px;
+                display: flex;
+                flex-direction: row;
+
+
+
+                            }
+
+    .contenedor-derechos {
+
+        background-color: red;
+        color: white;
+        margin: none;
+        padding: 3px;
+    }
+
+}

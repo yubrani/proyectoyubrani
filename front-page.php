@@ -28,6 +28,7 @@ get_header()
     
 
 </section>
+</body>
 <?php
 
 get_footer()

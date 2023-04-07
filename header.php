@@ -10,7 +10,7 @@
     <title>VCL</title>
     <?php wp_head(); ?>
 </head>
-<body>
+
     
 
     <header>
@@ -22,5 +22,3 @@
             
         </div>
     </header>
-
-</body>
