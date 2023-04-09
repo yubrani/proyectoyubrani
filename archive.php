@@ -8,7 +8,7 @@ get_header();
 
 <div class="contenedor-produtos">
     
-        <div class="contenedor">
+        <div class="contenedor-secundario-produtos">
             
             <?php while(have_posts()):the_post();?> 
             
@@ -26,14 +26,14 @@ get_header();
             </div>
 
             <?php endwhile; ?>
-            <button></button>
+            
         
         <div>
  
 </div>
 
 </body>
-
+</div>
 
 <?php
 

@@ -5,6 +5,22 @@ body {
     
 
 
+    .contenedor-secundario-produtos {
+
+        display: flex;
+        flex-direction: row;
+        margin: 100px;
+        
+                         a {
+                            margin: 30px;
+                                                p {
+                                                    margin: inherit;
+                                                }
+                         }
+
+
+    }
+
     .contenedor-fale {
         margin: 100px;
         display: flex;
@@ -85,6 +101,43 @@ body {
         background-color: black;
         color: white;
     }
-   
+    
+    .banner {
+        max-width: $full;
+                        img {
+                            max-width: $full;
+                            width: 100%;
+                        }
+    }
+        
+    .contenedor-orcamento {
+        
+        margin: 150px;
+        
+        .boton-orcamento {
+            display: flex;
+            flex-direction: row;
+            
+            
+
+                    button:hover {
+                        background-color: white;
+                        color: green;
+                        border-color: green;
+                    }
+
+                    button {
+                        width: 750px;
+                        font-size: 37px;
+                        border-radius: 200px;
+                        background-color: green;
+                        color: white;
+                        border-color: green;
+                        padding-right: 40px;
+                        height: 130px;
+                        
+                    }
+        }
+    }  
 }
 //TITULOS EN CONTENIDO
