@@ -29,9 +29,11 @@ get_header()
                 <a href="<?php the_permalink(); ?>"> 
                 <img src="<?php echo get_the_post_thumbnail_url();?>" alt="Imagen de produto">
                 </a>
+                <p><?php echo get_field('descripcion') ?></p>
                 <a href="<?php the_permalink(); ?>">
                     <p><?php the_title(); ?></p>
                 </a>
+                
 
                
             

@@ -3,24 +3,52 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
+    //Custom post type produtos//
+
+
+    .contenedor-produtos {
+
+        margin: 30px;
+    
 
 
     .contenedor-secundario-produtos {
 
         display: flex;
         flex-direction: row;
-        margin: 100px;
+        
+        
+
+                            
+                            
         
                          a {
-                            margin: 30px;
+                            text-decoration: none;
+                            margin: 20px;
+                            width: 180px;
+                            height: 180px;
+                           
+
+                                                img {
+                                                    margin: 20px;
+                                                    width: inherit;
+                                                    height: inherit;
+                                                    
+                                                }
+
                                                 p {
                                                     margin: inherit;
+                                                    text-decoration: none;
+                                                    color: red;
+                                                    font-weight: bold;
+                                                    width: 180px;
+                                                    height: 180px;
                                                 }
                          }
 
 
+        }
     }
-
     .contenedor-fale {
         margin: 100px;
         display: flex;
@@ -45,7 +73,12 @@ body {
                               
       
      }
+    
+     //Custom post type produtos//
 
+
+
+    //Servicos inicio//
 
     .informacion-entrada {
         .informacion-entrada-explicacion {
@@ -109,7 +142,9 @@ body {
                             width: 100%;
                         }
     }
-        
+     
+    
+    //Servicos Final//
     .contenedor-orcamento {
         
         margin: 150px;
