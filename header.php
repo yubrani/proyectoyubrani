@@ -11,18 +11,10 @@
         <?php wp_head(); ?>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
         <style>
-            .swiper {
-             width: 100%;
-            height: 800px;
-            display: flex;
-            flex-direction: center;  
-            background-color: grey;     
-               
-          
-                
-        }
-        
-        
+           .swiper {
+            width: 600px;
+            height: 300px;
+           }
         </style>
     </head>
 

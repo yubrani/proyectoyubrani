@@ -16,10 +16,23 @@ body {
 
         display: flex;
         flex-direction: row;
+        width: 100%;
+        margin-left: 45px;
+        margin-top: 45px;
         
         
+                        div {
 
-                            
+                                p {
+
+                                    
+                                    width: 268px;
+                                         
+
+                                     
+                                }
+                        }
+                       
                             
         
                          a {
@@ -40,15 +53,15 @@ body {
                                                     margin: inherit;
                                                     text-decoration: none;
                                                     color: red;
-                                                    font-weight: bold;
-                                                    width: 180px;
-                                                    height: 180px;
+                                                    font-weight: bold;   
+                                                    
                                                 }
                          }
-
-
+                     
         }
     }
+    //Custom post type produtos//
+    //Contenedor de formulario fale conosco//
     .contenedor-fale {
         margin: 100px;
         display: flex;
@@ -73,8 +86,9 @@ body {
                               
       
      }
+     //Contenedor de formulario fale conosco//
     
-     //Custom post type produtos//
+     
 
 
 
@@ -145,6 +159,7 @@ body {
      
     
     //Servicos Final//
+    //Boton Orcamento//
     .contenedor-orcamento {
         
         margin: 150px;
@@ -174,5 +189,13 @@ body {
                     }
         }
     }  
-}
+    //Boton Orcamento//
+
+ 
+   
+        
+  
+           
+   
+}   
 //TITULOS EN CONTENIDO

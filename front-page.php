@@ -51,6 +51,7 @@ get_header()
 
 <!-- Slider Container -->
 <!-- Slider main container -->
+
 <div class="swiper">
   <!-- Additional required wrapper -->
     <h2 class="titulo-slider">Nossas Maquinas</h2>
@@ -74,6 +75,7 @@ get_header()
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
