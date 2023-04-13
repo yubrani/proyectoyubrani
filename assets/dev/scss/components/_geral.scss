@@ -191,9 +191,55 @@ body {
     }  
     //Boton Orcamento//
 
- 
+    //Sub Pagina Posttype produtos//
+
+    .titulo-produtos {
+
+        background-color: red;
+        padding: 20px;
+
+                        p {
+                            color: white;
+                        }
+
+                        h2 {
+                            font-size: 40px;
+                            margin: 0px;
+                            color: white;
+                        }
+    }
    
-        
+    .contenedor-abaco {
+
+                        .abaco-informacion-contenedor {
+
+                            padding: 45px;
+                            display: flex;
+                            flex-direction: row;
+
+                            
+                                                    .abaco-imagenes {
+
+                                                        .imagenes-referencia {
+
+                                                                        img {
+                                                                            height: 100px;
+                                                                            width: 138.075px;
+                                                                            
+                                                                        }
+                                                        }
+
+                                                    }
+                            
+                                                    .abaco-informacion {
+
+
+                                                            width: 547px;
+                                                            height: 263.49px;
+
+                                                        }
+                        }
+    }
   
            
    
